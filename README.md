@@ -44,7 +44,7 @@ VTC locations are mapped based on available municipal data and town-level geocod
 ## 📊 Project Visuals & Maps
 
 ### 1. Spatial Accessibility (Buffer Analysis)
-![Buffer Map](buffer.jpg)
+![Buffer Map](Bekaa%20VTCs.jpg)
 
 ### 2. Kernel Density Heat Map (ArcGIS)
 ![Heat Map](heat%20map%20(2).jpg)
@@ -53,6 +53,7 @@ VTC locations are mapped based on available municipal data and town-level geocod
 ![VTC Distribution](Distribution.png)
 ![Unemployment Rate](Female.png)
 ![Correlation](Correlation.png)
+
 
 
 
