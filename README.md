@@ -15,9 +15,9 @@ This project provides a comprehensive geospatial and data-driven analysis of the
 
 ## 🛠 Methodology
 1.  **Geospatial Analysis (ArcMap):**
-    *   Kernel Density Estimation (Heat Map) to visualize VTC concentration.
-    *   Buffer Analysis to determine service areas and accessibility zones.
-    *   UTM Zone 36N projection for accurate distance measurements.
+    *   **Kernel Density Estimation (Heat Map):** To visualize the concentration and service gaps of VTCs.
+    *   **Buffer Analysis:** To determine spatial accessibility zones and service areas around each center.
+    *   **UTM Zone 36N Projection:** Used for accurate distance and area measurements.
 2.  **Data Analytics (Tableau):**
     *   Comparative analysis of unemployment rates by district.
     *   Correlation mapping between institutional availability and economic outcomes.
@@ -26,7 +26,7 @@ This project provides a comprehensive geospatial and data-driven analysis of the
 
 ## 📂 Repository Contents
 *   `Data/`: CSV files including VTC locations and socio-economic indicators.
-*   `Visuals/`: Professional GIS maps (Heat Maps) and Tableau charts.
+*   `Visuals/`: Professional GIS maps (Heat Maps, Buffer Analysis) and Tableau charts.
 
 ## 💡 Recommendations
 *   Prioritize the establishment of new mobile or permanent vocational training units in the **Rashaya** district.
@@ -40,15 +40,20 @@ This project provides a comprehensive geospatial and data-driven analysis of the
 
 ## ⚠️ Note on Data Accuracy
 VTC locations are mapped based on available municipal data and town-level geocoding. While some coordinates represent town centers rather than exact building footprints, the spatial distribution remains accurate for regional density and accessibility analysis.
+
 ## 📊 Project Visuals & Maps
 
-### 1. Kernel Density Heat Map (ArcGIS)
+### 1. Spatial Accessibility (Buffer Analysis)
+![Buffer Map](buffer.jpg)
+
+### 2. Kernel Density Heat Map (ArcGIS)
 ![Heat Map](heat%20map%20(2).jpg)
 
-### 2. VTC Distribution & Charts (Tableau)
+### 3. VTC Distribution & Charts (Tableau)
 ![VTC Distribution](Distribution.png)
 ![Unemployment Rate](Female.png)
 ![Correlation](Correlation.png)
+
 
 
 
