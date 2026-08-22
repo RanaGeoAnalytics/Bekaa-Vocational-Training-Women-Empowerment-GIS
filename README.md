@@ -43,6 +43,21 @@ VTC locations are mapped based on available municipal data and town-level geocod
 
 ## 📊 Project Visuals & Maps
 
+### 1. Kernel Density Heat Map (ArcGIS)
+<img src="heat map (2).jpg" width="900">
+
+### 2. VTC Distribution & Charts (Tableau)
+  
+
+<img src="Distribution of Vocational Training Centers (VTCs).png" width="800">
+  
+
+<img src="Female Unemployment Rate by District - Bekaa.png" width="800">
+  
+
+<img src="Correlation between VTC Availability and Female Unemployment.png" width="800">
+
+
 ### Kernel Density Heat Map (ArcGIS)
 ![Heat Map](heat%20map%20(2).jpg)
 
