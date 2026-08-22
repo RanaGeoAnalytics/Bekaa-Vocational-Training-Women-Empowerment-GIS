@@ -44,12 +44,13 @@ VTC locations are mapped based on available municipal data and town-level geocod
 ## 📊 Project Visuals & Maps
 
 ### 1. Kernel Density Heat Map (ArcGIS)
-![Heat Map](map.jpg)
+![Heat Map](Bekaa%20VTCs.jpg)
 
 ### 2. VTC Distribution & Charts (Tableau)
-![VTC Distribution](chart1.png)
-![Unemployment Rate](chart2.png)
-![Correlation](chart3.png)
+![VTC Distribution](Distribution.png)
+![Unemployment Rate](Female.png)
+![Correlation](Correlation.png)
+
 
 
 
