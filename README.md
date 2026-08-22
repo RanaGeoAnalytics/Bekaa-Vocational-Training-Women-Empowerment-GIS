@@ -40,11 +40,10 @@ This project provides a comprehensive geospatial and data-driven analysis of the
 
 ## ⚠️ Note on Data Accuracy
 VTC locations are mapped based on available municipal data and town-level geocoding. While some coordinates represent town centers rather than exact building footprints, the spatial distribution remains accurate for regional density and accessibility analysis.
-
 ## 📊 Project Visuals & Maps
 
 ### 1. Kernel Density Heat Map (ArcGIS)
-![Heat Map](Bekaa%20VTCs.jpg)
+![Heat Map](heat%20map%20(2).jpg)
 
 ### 2. VTC Distribution & Charts (Tableau)
 ![VTC Distribution](Distribution.png)
