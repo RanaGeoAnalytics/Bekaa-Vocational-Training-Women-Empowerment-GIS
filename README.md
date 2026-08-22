@@ -1,58 +1,40 @@
-# Geospatial Analysis of Vocational Training Accessibility and Women's Economic Empowerment in Bekaa, Lebanon (2024-2026)
+## Spatial Analysis in ArcMap
 
-**Project Lead:** Rana Hani Yassin  
-**Tools Used:** ArcGIS (ArcMap 10.8), Tableau Public, Microsoft Excel  
-**Region:** Bekaa Governorate (Zahle, West Bekaa, Rashaya)
+### Buffer Analysis
 
-## 📌 Project Overview
-This project provides a comprehensive geospatial and data-driven analysis of the accessibility of Vocational Training Centers (VTCs) for women in the Bekaa region. By mapping the density of these centers against female unemployment and labor force participation rates, the study identifies critical "economic empowerment gaps," particularly in underserved districts like Rashaya.
+Buffer analysis was used to represent the approximate service areas around vocational training centers. The map helps identify communities that are closer to or farther from the available centers.
 
-## 🔍 Key Findings
-*   **Correlation between Accessibility & Employment:** A strong negative correlation was identified between the density of VTCs and female unemployment rates.
-*   **Rashaya District Crisis:** Rashaya has the lowest VTC density (only 3 centers) and the highest female unemployment rate (40.2%) in the governorate.
-*   **Zahle District Success:** Zahle benefits from the highest VTC density (10 centers), resulting in the lowest female unemployment rate (32.8%) in the region.
-*   **Spatial Gaps:** Kernel Density analysis reveals significant "cold spots" in rural West Bekaa and Rashaya, where travel distance acts as a major barrier to women's economic participation.
+![Buffer Analysis Map](Bekaa%20VTCs.jpg)
 
-## 🛠 Methodology
-1.  **Geospatial Analysis (ArcMap):**
-    *   **Kernel Density Estimation (Heat Map):** To visualize the concentration and service gaps of VTCs.
-    *   **Buffer Analysis:** To determine spatial accessibility zones and service areas around each center.
-    *   **UTM Zone 36N Projection:** Used for accurate distance and area measurements.
-2.  **Data Analytics (Tableau):**
-    *   Comparative analysis of unemployment rates by district.
-    *   Correlation mapping between institutional availability and economic outcomes.
-3.  **Data Processing (Excel):**
-    *   Cleaning and structuring socio-economic indicators from regional reports.
+The Buffer map shows the approximate areas covered by the mapped vocational training centers. Areas with limited coverage may require better transportation, additional training services, or mobile training units.
 
-## 📂 Repository Contents
-*   `Data/`: CSV files including VTC locations and socio-economic indicators.
-*   `Visuals/`: Professional GIS maps (Heat Maps, Buffer Analysis) and Tableau charts.
+### Kernel Density Heat Map
 
-## 💡 Recommendations
-*   Prioritize the establishment of new mobile or permanent vocational training units in the **Rashaya** district.
-*   Improve public transportation links between rural towns and existing centers in **Zahle**.
-*   Tailor training programs to the specific economic needs of women in the **West Bekaa** region.
+Kernel Density Estimation was used to visualize the concentration of vocational training centers. Stronger colors represent areas with a higher concentration of mapped centers, while weaker colors represent lower density.
 
-## 📚 Data Sources
-*   **Economic Indicators:** Compiled from regional labor force surveys and household living conditions reports (2022-2024).
-*   **Institutional Data:** Compiled from public records of Vocational and Technical Education institutions in Lebanon.
-*   **Geospatial Layers:** GADM database and open-source municipal mapping data.
+![Kernel Density Heat Map](heat%20map%20(2).jpg)
 
-## ⚠️ Note on Data Accuracy
-VTC locations are mapped based on available municipal data and town-level geocoding. While some coordinates represent town centers rather than exact building footprints, the spatial distribution remains accurate for regional density and accessibility analysis.
+The Heat Map highlights the spatial concentration of VTCs and helps identify areas with fewer available centers. It is a regional density visualization and should not be interpreted as an exact measure of the capacity or quality of each institution.
 
-## 📊 Project Visuals & Maps
+## Tableau Results
 
-### 1. Spatial Accessibility (Buffer Analysis)
-![Buffer Map](Bekaa%20VTCs.jpg)
+### Female Unemployment by District
 
-### 2. Kernel Density Heat Map (ArcGIS)
-![Heat Map](heat%20map%20(2).jpg)
+This chart compares female unemployment indicators across the selected Bekaa districts and helps identify areas facing greater economic challenges for women.
 
-### 3. VTC Distribution & Charts (Tableau)
+![Female Unemployment Rate](Female.png)
+
+### Distribution of Vocational Training Centers
+
+This chart presents the distribution of the mapped vocational training centers across the study districts.
+
 ![VTC Distribution](Distribution.png)
-![Unemployment Rate](Female.png)
-![Correlation](Correlation.png)
+
+### Relationship Between VTC Availability and Female Unemployment
+
+This scatter plot compares VTC availability with female unemployment in the project dataset. It shows an association between the two variables, but it does not prove that VTC availability alone causes changes in unemployment.
+
+![Correlation Between VTC Availability and Female Unemployment](Correlation.png)
 
 
 
