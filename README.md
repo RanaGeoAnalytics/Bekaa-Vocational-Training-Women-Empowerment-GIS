@@ -35,6 +35,11 @@ This chart presents the distribution of the mapped vocational training centers a
 This scatter plot compares VTC availability with female unemployment in the project dataset. It shows an association between the two variables, but it does not prove that VTC availability alone causes changes in unemployment.
 
 ![Correlation Between VTC Availability and Female Unemployment](Correlation.png)
+## Author and Copyright
+
+© 2026 Rana Hani Yassin. All rights reserved.
+
+This project is presented for educational and portfolio purposes. Please request permission before reproducing, modifying, or redistributing the original analysis, maps, text, or visualizations.
 
 
 
